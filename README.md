@@ -17,32 +17,6 @@ A Python tool for identifying the dominant colors in images (and videos) using K
    git clone https://github.com/<your-username>/color-detector.git
    cd color-detector
    ```
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-### 1. Image mode
-
-Identify colors in a single image:
-
-```bash
-python detect_colors.py --image sample_images/demo1.jpg --colors 5
-```
-
-This will output something like:
-
-```
-Detected colors:
- - lightsteelblue   45.2%   RGB=(176,196,222)
- - crimson          30.1%   RGB=(220, 20, 60)
- - forestgreen      15.6%   RGB=(34,139, 34)
- - gold              5.8%   RGB=(255,215,  0)
- - slategray         3.3%   RGB=(112,128,144)
-```
 
 ### 2. Notebook demo
 
@@ -70,9 +44,6 @@ python realtime.py --webcam 0 --colors 3
 * `--output`: path to save annotated video
 * `--webcam`: use a webcam by device index instead of a video file
 
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests to:
 
 ```text
 https://github.com/<your-username>/color-detector
